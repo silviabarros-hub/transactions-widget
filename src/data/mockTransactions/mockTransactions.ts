@@ -11,18 +11,18 @@ export const mockTransactions: Transaction[] = [
     icon: "/src/assets/token-icons/bitcoin.svg",
     submitted: true,
     status: TransactionStatus.Approved,
-    timestamp: "2025-03-01T12:00:00Z",
+    timestamp: "2025-02-17T23:00:00Z",
   },
   {
     id: "3",
     sender: "0xCCC333CCC333CCC333CCC333CCC333CCC333CCC3",
     receiver: "0xDDD444DDD444DDD444DDD444DDD444DDD444DDD4",
-    value: 2,
+    value: 250,
     unit: "AVAX",
     icon: "/src/assets/token-icons/avalanche.svg",
     submitted: true,
     status: TransactionStatus.Rejected,
-    timestamp: "2025-02-27T10:30:00Z",
+    timestamp: "2025-02-17T21:00:00Z",
   },
   {
     id: "5",
@@ -33,7 +33,7 @@ export const mockTransactions: Transaction[] = [
     icon: "/src/assets/token-icons/optimism-2.svg",
     submitted: true,
     status: TransactionStatus.Submitted,
-    timestamp: "2025-02-25T08:45:00Z",
+    timestamp: "2025-02-17T19:00:00Z",
   },
   {
     id: "7",
@@ -44,7 +44,7 @@ export const mockTransactions: Transaction[] = [
     icon: "/src/assets/token-icons/sui.svg",
     submitted: true,
     status: TransactionStatus.Approved,
-    timestamp: "2025-02-23T16:15:00Z",
+    timestamp: "2025-02-17T17:00:00Z",
   },
   {
     id: "9",
@@ -54,8 +54,8 @@ export const mockTransactions: Transaction[] = [
     unit: "STR",
     icon: "/src/assets/token-icons/starknet.svg",
     submitted: true,
-    status: TransactionStatus.Rejected,
-    timestamp: "2025-02-21T12:30:00Z",
+    status: TransactionStatus.Approved,
+    timestamp: "2025-02-17T15:00:00Z",
   },
   {
     id: "11",
@@ -65,8 +65,8 @@ export const mockTransactions: Transaction[] = [
     unit: "AVAX",
     icon: "/src/assets/token-icons/avalanche.svg",
     submitted: true,
-    status: TransactionStatus.Approved,
-    timestamp: "2025-02-19T17:45:00Z",
+    status: TransactionStatus.Rejected,
+    timestamp: "2025-02-17T13:00:00Z",
   },
   {
     id: "13",
@@ -77,7 +77,7 @@ export const mockTransactions: Transaction[] = [
     icon: "/src/assets/token-icons/bitcoin.svg",
     submitted: true,
     status: TransactionStatus.Submitted,
-    timestamp: "2025-02-17T10:00:00Z",
+    timestamp: "2025-02-17T11:00:00Z",
   },
   {
     id: "2",
@@ -89,7 +89,7 @@ export const mockTransactions: Transaction[] = [
     submitted: false,
     approvalsReceived: 1,
     approvalsRequired: 5,
-    timestamp: "2025-02-28T11:00:00Z",
+    timestamp: "2025-02-17T18:00:00Z",
   },
   {
     id: "4",
@@ -101,7 +101,7 @@ export const mockTransactions: Transaction[] = [
     submitted: false,
     approvalsReceived: 2,
     approvalsRequired: 5,
-    timestamp: "2025-02-26T09:00:00Z",
+    timestamp: "2025-02-17T16:00:00Z",
   },
   {
     id: "6",
@@ -113,7 +113,7 @@ export const mockTransactions: Transaction[] = [
     submitted: false,
     approvalsReceived: 3,
     approvalsRequired: 5,
-    timestamp: "2025-02-24T14:00:00Z",
+    timestamp: "2025-02-17T10:00:00Z",
   },
   {
     id: "8",
@@ -125,7 +125,7 @@ export const mockTransactions: Transaction[] = [
     submitted: false,
     approvalsReceived: 0,
     approvalsRequired: 5,
-    timestamp: "2025-02-22T13:00:00Z",
+    timestamp: "2025-02-16T03:00:00Z",
   },
   {
     id: "10",
@@ -137,7 +137,7 @@ export const mockTransactions: Transaction[] = [
     submitted: false,
     approvalsReceived: 2,
     approvalsRequired: 5,
-    timestamp: "2025-02-20T15:00:00Z",
+    timestamp: "2025-02-15T01:00:00Z",
   },
   {
     id: "12",
@@ -149,7 +149,7 @@ export const mockTransactions: Transaction[] = [
     submitted: false,
     approvalsReceived: 3,
     approvalsRequired: 5,
-    timestamp: "2025-02-18T11:30:00Z",
+    timestamp: "2025-01-20T23:00:00Z",
   },
   {
     id: "14",
@@ -161,6 +161,6 @@ export const mockTransactions: Transaction[] = [
     submitted: false,
     approvalsReceived: 4,
     approvalsRequired: 5,
-    timestamp: "2025-02-16T08:00:00Z",
+    timestamp: "2025-01-16T21:00:00Z",
   },
 ];
