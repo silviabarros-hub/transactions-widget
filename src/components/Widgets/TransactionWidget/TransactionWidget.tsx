@@ -23,7 +23,7 @@ const TransactionWidget: FC<TransactionWidgetProps> = ({ isLoading }) => {
       <div className="transaction-widget-header">
         <div className="transaction-widget-header-title">
           <div className="transaction-widget-header-img-wrapper">
-            <img src="/src/assets/icons/nav-approvals.svg" />
+            <img src="../../../assets/icons/nav-approvals.svg" />
           </div>
           <p>{STRINGS.TRANSACTION.TRANSACTIONS}</p>
         </div>
