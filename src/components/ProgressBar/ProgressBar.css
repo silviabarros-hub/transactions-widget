@@ -1,0 +1,36 @@
+.progress-bar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 15rem;
+  justify-content: flex-start; 
+}
+
+.approvals-text {
+  font-size: 0.75rem;;
+  color: var(--Secondary-Charcoal-300);
+  line-height: 0.875rem;
+  margin: 0;
+}
+
+.progress-bar-container {
+  flex: 1;
+  background-color: var(--Secondary-Sand-200);
+  height: 0.25rem; 
+  border-radius: 0.3125rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress-bar-fill {
+  background-color: var(--Blue-Sky);
+  height: 0.25rem; 
+  border-radius: 0.25rem;
+}
+
+@media  (max-width: 415px) {
+  .progress-bar-wrapper {
+    width: 10rem;
+  }
+  
+}

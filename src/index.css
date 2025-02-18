@@ -1,0 +1,41 @@
+:root {
+  --Base-White: #FFF;
+  --Blue-Sky: #84A7FA;
+  --Charcoal: #232323;
+  --Primary-Blue-Sky-50: #EFF2FE;
+  --Primary-Blue-Sky-600: #7998E3;
+  --Primary-Blue-Sky-900: #4C6090;
+  --Primary-Orange-50: #FCEDEA;
+  --Primary-Orange-500: #EA6640;
+  --Secondary-Charcoal-300: #969696;
+  --Secondary-Charcoal-400: #6D6D6D;
+  --Secondary-Sand-50: #FBFAF8;
+  --Secondary-Sand-100: #F8F4F1;
+  --Secondary-Sand-200: #F4EFE9;
+  --Secondary-Sand-950: #5F5A55;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'BasisGrotesquePro';
+  src: url('../fonts/BasisGrotesquePro-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin:0;
+  background-color: var(--Secondary-Sand-200);
+  width: 100%;
+  font-family: 'BasisGrotesquePro', sans-serif;
+  font-weight: 300;
+  
+}
+
+button {
+  background: transparent;
+  border: none;
+}

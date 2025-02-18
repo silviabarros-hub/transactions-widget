@@ -1,0 +1,115 @@
+.transaction-card {
+  display: flex;
+  padding: 0.75rem 1.25rem;
+  background-color: var(--Base-White);
+  flex-direction: column;
+  justify-content: center;
+  align-self: stretch;
+  border-radius: 0.75rem;
+  border: 0px solid var(--Secondary-Sand-100);
+  width: 23.25rem;
+}
+
+.transaction-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-title {
+  overflow: hidden;
+  color: var(--Secondary-Charcoal-400);
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  margin-bottom: 0.25rem;
+  margin-top: 0;
+}
+
+.transaction-title:first-letter {
+  text-transform: uppercase;
+}
+
+.transaction-token {
+  text-transform: uppercase;
+}
+
+.transaction-widget-tabs button {
+  text-transform: capitalize;
+}
+
+.status-badge {
+  display: flex;
+  padding: 0.25rem 0.75rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  min-width: 5rem;
+  text-transform: capitalize;
+}
+
+.status-badge.approved {
+  background-color: var(--Primary-Blue-Sky-50);
+  color: var(--Primary-Blue-Sky-900);
+}
+
+.status-badge.rejected {
+  background-color: var(--Primary-Orange-50);
+  color: var(--Primary-Orange-500);
+}
+
+.status-badge.submitted {
+  background-color: var(--Secondary-Sand-200);
+  color: var(--Secondary-Sand-950);
+}
+
+.transaction-token-img {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  color: var(--Secondary-Charcoal-300);
+}
+
+.transaction-token img {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+.transaction-card-progressbar-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+  margin-top: 0.75rem;
+}
+
+.transaction-card-timestamp {
+  color: var(--Secondary-Charcoal-300);
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+}
+
+.transaction-card-timestamp p{
+  margin: 0;
+}
+
+.highlighted{
+  color: var(--Charcoal);
+}
+
+@media  (max-width: 720px) {
+  .transaction-card {
+    padding: 0.5rem 0.75rem;
+    width: 20.25rem;
+  }
+}
+@media  (max-width: 390px) {
+  .transaction-card {
+    padding: 0.5rem 0.75rem;
+    width: 20rem;
+  }
+}
